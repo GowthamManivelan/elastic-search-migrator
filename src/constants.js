@@ -3,6 +3,7 @@ export const OPENAI_ENDPOINT = 'https://chicagofireopenai.openai.azure.com/opena
 //export const ELASTIC_USERNAME = 'elastic'; // Replace with your actual username
 //export const ELASTIC_PASSWORD = 'uQFTxSsR7Kmh72PAGM5mplDv'; // Replace with your actual password
 //Export const ELASTIC_CONNECTION_STRING =" https://test-deployment-01564d.es.eastus2.azure.elastic-cloud.com/"
+export const ELASTIC_INDEX_NAME = 'search_items'
 
 
 export const INDEX_ENDPOINT = 'http://localhost:3001/convert-index'
