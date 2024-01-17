@@ -8,13 +8,15 @@
 **Demonstration Video** : _Insert link to demonstration video_  
 
 # Overview
-Search using a Search migrator application powered by GenAI that converts Elasticsearch indexes and to Atlas Search components. The modernized product catalog on Atlas Search will also showcase powerful in-app search, and a chatbot powered by MongoDB vector search with RAG
+We will demonstrate a process and prototype to modernize a product catalog using a Search migrator application powered by GenAI that converts Elasticsearch indexes and queries to Atlas Search components. The modernized product catalog on Atlas Search will also showcase powerful in-app search, and a chatbot powered by MongoDB vector search with RAG. Users will use the catalog to place digital orders that a Viam robot will fulfill in a store setting.
+
 
 
 # Justification
 
-_Please explain why you decided to build the application/demonstration for this project. What inspired you? What problems does it solve or how will it make Presales activities easier?_
-_What MongoDB competitive differentiators (developer productivity, resiliency, scalability, etc.) does this demonstration showcase?_
+We all as a solutions architects encounter Elastic Search Index every single day. But there isn't a seamless process/tools that makes the elastic search to atlas search index. Much like our beloved Relational Migrator. We call this our Search Migrator. It is a RAG archiecture powered by GPT4 model. The ecommerce website would then leverage these indexes to modernize the application using Atlas Search.
+
+Also we wanted to go geek so added an autonomous robot delivery service to fullfill the orders placed using machine learning services.
 
 # Detailed Application Overview
 
