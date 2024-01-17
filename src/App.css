@@ -1,0 +1,136 @@
+/* App.css */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0px;
+  height: 100%;
+  /* Make sure the html and body are at least the height of the viewport */
+  width: 100%;
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar if the content is wider than the viewport */
+  background-color: #f9f9f9;
+  color: #ffffff;
+}
+
+#root,
+.App {
+  height: 100%;
+  min-height: 100vh;
+  /* This will ensure that .App is at least the height of the viewport */
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  /* Center children horizontally */
+  align-items: center;
+  /* Center children vertically */
+  flex-direction: column;
+  /* Stack children vertically */
+  background-image: url('./bg.png');
+  /* Adjust if your image is in the src folder */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background-color: #116149;
+  /* MongoDB green */
+  padding: 30px;
+  margin: 40px 0;
+  /* Add top and bottom margin for form */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  /* Full width on smaller screens */
+  box-sizing: border-box;
+}
+
+input[type="text"],
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #13aa52;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+  /* Add a bit more space above the button */
+}
+
+button:hover {
+  background-color: #00ed64;
+}
+
+form-group {
+  margin-bottom: 20px;
+  /* Increase the bottom margin for better spacing */
+}
+
+.mongodb-schema-textarea {
+  width: 100%;
+  /* Full width of the container */
+  height: 300px;
+  /* Fixed height */
+  padding: 10px;
+  /* Padding inside the textarea */
+  margin-top: 20px;
+  /* Margin above the textarea */
+  border: 1px solid #ccc;
+  /* Light grey border */
+  border-radius: 4px;
+  /* Slightly rounded corners */
+  background-color: #fafafa;
+  /* Light background color */
+  color: #333;
+  /* Dark text color for contrast */
+  font-family: 'Courier New', Courier, monospace;
+  /* Monospaced font for better readability of code/schema */
+  font-size: 0.9rem;
+  /* Font size */
+  line-height: 1.4;
+  /* Line height for better readability */
+  resize: vertical;
+  /* Allow vertical resize only */
+  overflow: auto;
+  /* Add scrollbars when content overflows */
+  white-space: pre-wrap;
+  /* Keep whitespaces and line breaks */
+  word-wrap: break-word;
+  /* Break long words to prevent horizontal scrolling */
+}
+
+.mongodb-schema-textarea:read-only {
+  background-color: #f3f3f3;
+  /* Slightly different background for read-only mode /
+  cursor: default; / Default cursor for read-only mode */
+}
+
+.progress-message {
+  color: #ffffff;
+  /* White font color */
+  font-family: 'Arial', sans-serif;
+  /* Classic font style */
+  background-color: transparent;
+  /* No background */
+  margin-top: 10px;
+  font-size: 1rem;
+}
