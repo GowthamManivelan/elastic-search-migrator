@@ -47,8 +47,8 @@ Displaying hackathonReadme.md.
 ![Alt text](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/img5.png)
 
 
-[![Watch the video](https://github.dev/GowthamManivelan/elastic-search-migrator/blob/main/images/video1.mp4)
-[![Watch the video](https://github.dev/GowthamManivelan/elastic-search-migrator/blob/main/images/video2.mp4)
+[![Watch the video](https://github.dev/GowthamManivelan/elastic-search-migrator/blob/main/images/1.mp4)
+[![Watch the video](https://github.dev/GowthamManivelan/elastic-search-migrator/blob/main/images/2.mp4)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
