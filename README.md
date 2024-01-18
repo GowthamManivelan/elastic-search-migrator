@@ -16,7 +16,7 @@ We will demonstrate a process and prototype to modernize a product catalog using
 
 We all as a solutions architects encounter Elastic Search Index every single day. But there isn't a seamless process/tools that makes the elastic search to atlas search index. Much like our beloved Relational Migrator. We call this our Search Migrator. It is a RAG archiecture powered by GPT4 model. The ecommerce website would then leverage these indexes to modernize the application using Atlas Search.
 
-Also we wanted to go geek so added an autonomous robot delivery service to fullfill the orders placed using machine learning services.
+NOT JUST THAT. We wanted to add a physical dimension to the world of MongoDB and introduced a fully autonomous VIAM ROVER that leverages MongoDB TimeSeries Collection that can perform delivery service of the order placed in ecommerce site using sesors and machine learning services.
 
 # Detailed Application Overview
 
@@ -45,6 +45,10 @@ Displaying hackathonReadme.md.
 ![Alt text](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/img3.png)
 ![Alt text](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/img4.png)
 ![Alt text](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/img5.png)
+
+
+[![Watch the video](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/IMG_4566.mov)
+[![Watch the video](https://github.com/GowthamManivelan/elastic-search-migrator/blob/main/images/IMG_4567.mov)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
